@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(196, 220, 230);
+}
+
+#header{
+    width:100% ;
+    background-color: rgb(158, 158, 234);
+    height:5.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+#header figure{
+    width: 12%;
+}
+#header figure img{
+    width: 4.2rem;
+    display: block;
+    padding: 0.5rem;
+    margin: auto;
+}
+#header .left{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+#header .right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#header .right figure{
+    width: 30%;
+}
+#header .right figure img{
+    width: 5.1rem;
+}
+#sign_up{
+    width: 38vw;
+    /* height: 100vh; */
+    background-color: rgb(252, 224, 224);
+    margin:4rem auto 4rem auto;
+    border: 2px solid rgb(136, 136, 253);
+}
+#sign_up figure img{
+    width: 30%;
+    margin:2.6rem auto 0rem auto;
+    display: block;
+}
+#sign_up figure figcaption{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+#sign_up form{
+    width: 100%;
+    margin: auto;
+    font-size: 2.5rem;
+}
+#sign_up input{
+    display: block;
+    width: 30rem;
+    height: 2.5rem;
+    margin: 2.5rem auto;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0rem 0.6rem;
+}
+button[type="submit"]{
+    width: 32rem;
+    height: 2.3rem;
+    margin: auto;
+    display: block;
+}
+
+div#form_foot p{
+    font-size: 1rem;
+    width: 40%;
+    margin: 1.5rem auto;
+}

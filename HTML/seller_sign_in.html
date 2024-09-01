@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/seller_sign_in.css">
+ 
+    <script src="/javascript/seller.js"></script>
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-toggle">
+            <button id="otpBtn" onclick="showOTPForm()">Mobile OTP</button>
+            <button id="passwordBtn" onclick="showPasswordForm()">Username/Password</button>
+        </div>
+        <div id="otpForm" class="login-form">
+            <h2>Mobile OTP Login</h2>
+            <input type="text" placeholder="Mobile Number" autocomplete="off">
+            <input type="text" placeholder="OTP">
+            <button class="get-otp-button">GET OTP</button>
+            <button class="login-button">Login</button>
+        </div>
+        <div id="passwordForm" class="login-form">
+            <h2>Username/Password Login</h2>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button class="login-button">Login</button>
+        </div>
+        <div class="register-now">
+            <p>Don't have an account? <a href="seller_sign_up.html">Register Now</a></p>
+            <button class="register-button">Register Now</button> <!-- Add a "Register Now" button -->
+        </div>
+    </div>
+</body>
+</html>

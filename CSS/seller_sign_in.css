@@ -1,0 +1,123 @@
+/* styles.css */
+
+/* Apply some basic styling to the body */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* styles.css */
+
+/* Apply some basic styling to the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the login container */
+.login-container {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style the login toggle buttons */
+.login-toggle button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-toggle button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the login forms */
+.login-form {
+    display: none;
+    padding: 20px;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.login-form button.get-otp-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-right: 1.9rem;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button.login-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    opacity: 0.9;
+}
+
+.login-form button.get-otp-button:hover {
+    background-color: #219a52;
+}
+
+.login-form button.login-button:hover {
+    background-color: #d63031;
+}
+/* CSS in login.css */
+.register-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}

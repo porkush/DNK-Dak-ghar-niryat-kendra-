@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(196, 220, 230);
+}
+
+#header{
+    width:100% ;
+    background-color: rgb(158, 158, 234);
+    height:5.5rem ;
+    position: absolute;
+    top: 0px;
+    display: flex; 
+     align-items: center;
+    justify-content:space-between ;
+}
+#header figure{
+    width: 12%;
+}
+#header figure img{
+    width: 4.2rem;
+    display: block;
+    padding: 0.5rem;
+    margin: auto;
+}
+#header .left{
+    width: 26%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+#header .right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#header .right figure{
+    width: 30%;
+}
+#header .right figure img{
+    width: 5.1rem;
+}
+#sign_in{
+    width: 38vw;
+    background-color: rgb(252, 224, 224);
+    margin:4rem auto 4rem auto;
+    border: 2px solid rgb(136, 136, 253);
+    padding-bottom: 4rem;
+}
+#sign_in p {
+    width: 42%;
+    margin: 1rem auto;
+}
+#sign_in figure img{
+    width: 30%;
+    margin:2.6rem auto 0rem auto;
+    display: block;
+}
+#sign_in figure figcaption{
+    font-size: 1.6rem;
+    text-align: center;
+}
+.login-toggle button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.login-toggle button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the login forms */
+.login-form {
+    display: none;
+    padding: 20px;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+}
+
+.login-form button.get-otp-button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    margin-right: 1.9rem;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button.login-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    opacity: 0.9;
+}
+
+.login-form button.get-otp-button:hover {
+    background-color: #219a52;
+}
+
+.login-form button.login-button:hover {
+    background-color: #d63031;
+}
+/* CSS in login.css */
+.register-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.register-button:hover {
+    background-color: #45a049;
+}
+
+
+
+
+
+
+
+/* 
+
+
+#sign_in form{
+    width: 100%;
+    margin: auto;
+    font-size: 2.5rem;
+}
+#sign_in input{
+    display: block;
+    width: 30rem;
+    height: 2.5rem;
+    margin: 2.5rem auto ;
+    border: 1px solid red;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0rem 0.6rem;
+}
+div.btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.btn button{
+    font-size: 1.2rem;
+    padding: 0.8rem 4.2rem;
+    color: white;
+    background-color: rgb(58, 58, 246);
+    
+}
+
+ */
